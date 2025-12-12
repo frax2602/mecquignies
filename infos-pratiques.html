@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informations pratiques pour les habitants de Mecquignies - Marchés, sécurité, environnement">
+    <title>Infos Pratiques - Mecquignies</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 1rem;">
+                        <img src="images/logo-mecquignies.png" alt="Logo Mecquignies" class="logo-img" onerror="this.style.display='none'">
+                        <div class="logo-text">
+                            <h1>🌳 Mecquignies</h1>
+                            <span class="tagline">Village du Nord</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="actualites.html">Actualités</a></li>
+                        <li><a href="vie-locale.html">Vie Locale</a></li>
+                        <li><a href="infos-pratiques.html" class="active">Infos Pratiques</a></li>
+                        <li><a href="histoire.html">Histoire</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Menu mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>ℹ️ Informations Pratiques</h1>
+            <p>Toutes les informations utiles pour les habitants de Mecquignies</p>
+        </div>
+    </section>
+
+    <!-- Infos Pratiques Habitants Section -->
+    <section class="infos-habitants-section">
+        <div class="container">
+            <div class="infos-habitants-grid">
+                <!-- Marchés locaux -->
+                <div class="info-habitants-card">
+                    <h3>🛒 Marchés à Proximité</h3>
+                    <div class="marches-list">
+                        <div class="marche-item">
+                            <strong>Lundi matin</strong>
+                            <span>Maubeuge - Place de l'Industrie (200 exposants)</span>
+                        </div>
+                        <div class="marche-item">
+                            <strong>Mardi matin</strong>
+                            <span>Aulnoye-Aymeries - Place Matisse (80 exposants)</span>
+                        </div>
+                        <div class="marche-item">
+                            <strong>Mercredi</strong>
+                            <span>Bachant - Centre Ville (toute la journée)</span>
+                        </div>
+                        <div class="marche-item">
+                            <strong>Jeudi matin</strong>
+                            <span>Feignies - Centre Ville</span>
+                        </div>
+                        <div class="marche-item">
+                            <strong>Vendredi matin</strong>
+                            <span>Bavay - Rue Paul Matthieu (30 exposants)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sécurité -->
+                <div class="info-habitants-card">
+                    <h3>👮 Sécurité & Urgences</h3>
+                    <div class="securite-content">
+                        <div class="securite-item">
+                            <strong>Gendarmerie</strong>
+                            <p>Brigade territoriale autonome de Bavay<br>
+                            Zone de gendarmerie d'Avesnes-sur-Helpe</p>
+                        </div>
+                        <div class="securite-item">
+                            <strong>Centre Antipoison</strong>
+                            <p>Lille : <a href="tel:0800595959">08 00 59 59 59</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Environnement -->
+                <div class="info-habitants-card">
+                    <h3>🌳 Nature & Environnement</h3>
+                    <div class="environnement-content">
+                        <div class="env-item">
+                            <strong>Forêt de Mormal</strong>
+                            <p>La plus grande forêt domaniale du Nord, à proximité immédiate. Idéale pour les randonnées, le VTT et les activités nature.</p>
+                        </div>
+                        <div class="env-item">
+                            <strong>Rénovation énergétique</strong>
+                            <p>7% des logements sont des passoires énergétiques. Des aides sont disponibles pour la rénovation.</p>
+                        </div>
+                        <div class="env-item">
+                            <strong>Risques naturels</strong>
+                            <p>Risque d'inondation, risque sismique modéré (zone 3), présence d'engins de guerre.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Communes voisines -->
+                <div class="info-habitants-card">
+                    <h3>🗺️ Communes Voisines d'Intérêt</h3>
+                    <div class="communes-list">
+                        <div class="commune-item">
+                            <strong>Bavay</strong>
+                            <span>Forum romain et musée archéologique</span>
+                        </div>
+                        <div class="commune-item">
+                            <strong>Le Quesnoy</strong>
+                            <span>Fortifications historiques de Vauban</span>
+                        </div>
+                        <div class="commune-item">
+                            <strong>Avesnes-sur-Helpe</strong>
+                            <span>Patrimoine architectural remarquable</span>
+                        </div>
+                        <div class="commune-item">
+                            <strong>Maubeuge</strong>
+                            <span>Zoo et fortifications</span>
+                        </div>
+                        <div class="commune-item">
+                            <strong>Landrecies</strong>
+                            <span>Ville traversée par la Sambre</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Numéros d'urgence -->
+            <div class="urgences-section">
+                <h3>🚨 Numéros d'Urgence</h3>
+                <div class="urgences-grid">
+                    <div class="urgence-item">
+                        <span class="urgence-number">15</span>
+                        <span class="urgence-label">SAMU</span>
+                    </div>
+                    <div class="urgence-item">
+                        <span class="urgence-number">17</span>
+                        <span class="urgence-label">Police</span>
+                    </div>
+                    <div class="urgence-item">
+                        <span class="urgence-number">18</span>
+                        <span class="urgence-label">Pompiers</span>
+                    </div>
+                    <div class="urgence-item">
+                        <span class="urgence-number">112</span>
+                        <span class="urgence-label">Urgences UE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mecquignies</h4>
+                    <p>Village du Nord de la France</p>
+                    <p class="footer-address">
+                        790 rue du Centre<br>
+                        59570 Mecquignies
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="actualites.html">Actualités</a></li>
+                        <li><a href="vie-locale.html">Vie Locale</a></li>
+                        <li><a href="infos-pratiques.html">Infos Pratiques</a></li>
+                        <li><a href="histoire.html">Histoire</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Utiles</h4>
+                    <ul>
+                        <li><a href="https://www.cc-paysdemormal.fr/" target="_blank" rel="noopener noreferrer">CC Pays de Mormal</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Accessibilité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Horaires Mairie</h4>
+                    <p>Lun & Jeu : 10h-12h<br>
+                    Mar, Mer & Ven : 16h-18h</p>
+                    <p class="footer-contact">
+                        📞 03 27 63 17 09<br>
+                        ✉️ mairie@mecquignies.fr
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mecquignies. Tous droits réservés.</p>
+                <p class="footer-credit">Site réalisé avec ❤️ pour le village de Mecquignies</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

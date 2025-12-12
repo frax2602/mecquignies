@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez Mecquignies, village du Nord - Histoire, patrimoine, actualités et informations pratiques">
+    <title>Mecquignies - Village du Nord</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 1rem;">
+                        <img src="images/logo-mecquignies.png" alt="Logo Mecquignies" class="logo-img" onerror="this.style.display='none'">
+                        <div class="logo-text">
+                            <h1>🌳 Mecquignies</h1>
+                            <span class="tagline">Village du Nord</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Accueil</a></li>
+                        <li><a href="actualites.html">Actualités</a></li>
+                        <li><a href="vie-locale.html">Vie Locale</a></li>
+                        <li><a href="infos-pratiques.html">Infos Pratiques</a></li>
+                        <li><a href="histoire.html">Histoire</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Menu mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Mecquignies</h2>
+                <p class="hero-tagline">Village du Nord, aux portes de la Forêt de Mormal</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">716</span>
+                        <span class="stat-label">Habitants</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">59570</span>
+                        <span class="stat-label">Code Postal</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4,8 km²</span>
+                        <span class="stat-label">Superficie</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="actualites.html" class="btn btn-primary">📰 Actualités</a>
+                    <a href="contact.html" class="btn btn-secondary">📧 Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dernière Actualité (chargée dynamiquement) -->
+    <section class="derniere-actualite-home">
+        <div class="container">
+            <div class="actualite-featured" id="derniere-actualite-container">
+                <!-- Contenu chargé dynamiquement depuis actualites.json -->
+                <div class="loading-actualite">
+                    <p>Chargement de la dernière actualité...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Rapides -->
+    <section class="services-rapides">
+        <div class="container">
+            <div class="services-grid-home">
+                <a href="actualites.html" class="service-card-home">
+                    <div class="service-icon-home">📰</div>
+                    <h3>Actualités</h3>
+                    <p>Dernières nouvelles du village</p>
+                </a>
+                <a href="contact.html" class="service-card-home">
+                    <div class="service-icon-home">🏛️</div>
+                    <h3>Mairie</h3>
+                    <p>Horaires, contact et démarches</p>
+                </a>
+                <a href="vie-locale.html" class="service-card-home">
+                    <div class="service-icon-home">🎭</div>
+                    <h3>Vie Locale</h3>
+                    <p>Événements et associations</p>
+                </a>
+                <a href="infos-pratiques.html" class="service-card-home">
+                    <div class="service-icon-home">ℹ️</div>
+                    <h3>Infos Pratiques</h3>
+                    <p>Marchés, services, urgences</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mairie Section Simplifiée -->
+    <section class="mairie-section-simple">
+        <div class="container">
+            <h2 class="section-title">Mairie de Mecquignies</h2>
+            <div class="mairie-grid-simple">
+                <div class="mairie-info-card">
+                    <h3>📍 Adresse</h3>
+                    <p>790 rue du Centre<br>59570 Mecquignies</p>
+                </div>
+                <div class="mairie-info-card">
+                    <h3>📞 Contact</h3>
+                    <p><a href="tel:0327631709">03 27 63 17 09</a><br>
+                    <a href="mailto:mairie@mecquignies.fr">mairie@mecquignies.fr</a></p>
+                </div>
+                <div class="mairie-info-card">
+                    <h3>🕐 Horaires</h3>
+                    <p>Lun & Jeu : 10h-12h<br>
+                    Mar, Mer & Ven : 16h-18h</p>
+                </div>
+                <div class="mairie-info-card">
+                    <h3>👤 Maire</h3>
+                    <p>M. ROMAIN Frédéric</p>
+                    <button class="conseil-toggle-btn-simple" id="conseilToggle">
+                        <span>Voir le conseil municipal</span>
+                        <span class="toggle-icon-simple">▼</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Conseil Municipal (caché par défaut) -->
+            <div class="conseil-municipal-expandable" id="conseilExpandable">
+                <div class="conseil-municipal-compact">
+                    <div class="conseil-membre maire-highlight">
+                        <strong>M. ROMAIN Frédéric</strong>
+                        <span>Maire</span>
+                    </div>
+                    <div class="conseil-membre adjoint-highlight">
+                        <strong>Mme MER Graziella</strong>
+                        <span>1ère adjointe au Maire</span>
+                    </div>
+                    <div class="conseil-membre adjoint-highlight">
+                        <strong>Mme PENIN Linda</strong>
+                        <span>2ème adjointe au Maire</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>Mme CHAROT Agnès</strong>
+                        <span>Conseillère municipale</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>M. COSSART Pierre</strong>
+                        <span>Conseiller municipal</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>M. DELVALLEE Anthony</strong>
+                        <span>Conseiller municipal</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>Mme DELVALLEE Colette</strong>
+                        <span>Conseillère municipale</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>M. FILMOTTE Franck</strong>
+                        <span>Conseiller municipal</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>M. FLAMME Matthieu</strong>
+                        <span>Conseiller municipal</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>Mme FOUCRIER Sabrina</strong>
+                        <span>Conseillère municipale</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>M. GROSSEMY Fabien</strong>
+                        <span>Conseiller municipal</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>M. MER Charles</strong>
+                        <span>Conseiller municipal</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>M. MULPAS Jean-Paul</strong>
+                        <span>Conseiller municipal</span>
+                    </div>
+                    <div class="conseil-membre">
+                        <strong>Mme PROUVEUR Marie-Lise</strong>
+                        <span>Conseillère municipale</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Démarches en ligne -->
+            <div class="demarches-section-compact">
+                <h3>📋 Démarches en ligne</h3>
+                <div class="demarches-grid">
+                    <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/R1406" target="_blank" rel="noopener noreferrer" class="demarche-card">
+                        <span class="demarche-icon">📄</span>
+                        <span>Acte de naissance</span>
+                    </a>
+                    <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/R1405" target="_blank" rel="noopener noreferrer" class="demarche-card">
+                        <span class="demarche-icon">💍</span>
+                        <span>Acte de mariage</span>
+                    </a>
+                    <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/R18385" target="_blank" rel="noopener noreferrer" class="demarche-card">
+                        <span class="demarche-icon">🪪</span>
+                        <span>Carte d'identité</span>
+                    </a>
+                    <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/R47835" target="_blank" rel="noopener noreferrer" class="demarche-card">
+                        <span class="demarche-icon">🛂</span>
+                        <span>Passeport</span>
+                    </a>
+                    <a href="https://www.formulaires.service-public.gouv.fr/gf/showFormulaireSignaletiqueConsulter.do?numCerfa=13703" target="_blank" rel="noopener noreferrer" class="demarche-card">
+                        <span class="demarche-icon">🏗️</span>
+                        <span>Déclaration de travaux</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mecquignies</h4>
+                    <p>Village du Nord de la France</p>
+                    <p class="footer-address">
+                        790 rue du Centre<br>
+                        59570 Mecquignies
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="actualites.html">Actualités</a></li>
+                        <li><a href="vie-locale.html">Vie Locale</a></li>
+                        <li><a href="infos-pratiques.html">Infos Pratiques</a></li>
+                        <li><a href="histoire.html">Histoire</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Utiles</h4>
+                    <ul>
+                        <li><a href="https://www.cc-paysdemormal.fr/" target="_blank" rel="noopener noreferrer">CC Pays de Mormal</a></li>
+                        <li><a href="https://www.hautsdefrance.fr/" target="_blank" rel="noopener noreferrer">Région Hauts-de-France</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Lun & Jeu : 10h-12h<br>
+                    Mar, Mer & Ven : 16h-18h</p>
+                    <p class="footer-contact">
+                        📞 03 27 63 17 09<br>
+                        ✉️ mairie@mecquignies.fr
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mecquignies. Tous droits réservés.</p>
+                <p class="footer-credit">Site réalisé avec ❤️ pour le village de Mecquignies</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="actualites.js"></script>
+</body>
+</html>

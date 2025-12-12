@@ -1,0 +1,35 @@
+{
+  "actualites": [
+    {
+      "id": 1,
+      "titre": "Vœux du Maire 2025",
+      "date": "2025-01-15",
+      "dateAffichage": "15 janvier 2025",
+      "categorie": "Mairie",
+      "image": "",
+      "extrait": "Le Maire Frédéric ROMAIN et l'ensemble du conseil municipal vous présentent leurs meilleurs vœux pour cette nouvelle année 2025. Que cette année soit synonyme de santé, de bonheur et de prospérité pour toutes les Macogniennes et tous les Macogniens.",
+      "contenu": "Le Maire Frédéric ROMAIN et l'ensemble du conseil municipal vous présentent leurs meilleurs vœux pour cette nouvelle année 2025. Que cette année soit synonyme de santé, de bonheur et de prospérité pour toutes les Macogniennes et tous les Macogniens.\n\nLa cérémonie des vœux aura lieu le samedi 25 janvier 2025 à 18h à la salle des fêtes. Tous les habitants sont cordialement invités à venir partager ce moment convivial autour d'un verre de l'amitié."
+    },
+    {
+      "id": 2,
+      "titre": "Collecte des déchets verts",
+      "date": "2025-01-10",
+      "dateAffichage": "10 janvier 2025",
+      "categorie": "Environnement",
+      "image": "",
+      "extrait": "La collecte des déchets verts reprendra à partir du lundi 15 janvier 2025. Pensez à sortir vos bacs la veille au soir.",
+      "contenu": "La collecte des déchets verts reprendra à partir du lundi 15 janvier 2025. Pensez à sortir vos bacs la veille au soir.\n\nRappel : Les déchets verts sont collectés tous les lundis. En cas de jour férié, la collecte est reportée au mardi."
+    },
+    {
+      "id": 3,
+      "titre": "Marché de Noël 2024",
+      "date": "2024-12-15",
+      "dateAffichage": "15 décembre 2024",
+      "categorie": "Événement",
+      "image": "",
+      "extrait": "Le marché de Noël de Mecquignies a été un véritable succès ! Merci à tous les participants et aux bénévoles pour cette belle journée.",
+      "contenu": "Le marché de Noël de Mecquignies a été un véritable succès ! Plus de 500 visiteurs sont venus profiter des stands, des animations et de l'ambiance festive.\n\nMerci à tous les exposants, aux bénévoles et aux habitants qui ont contribué à faire de cet événement un moment inoubliable. Rendez-vous l'année prochaine !"
+    }
+  ]
+}
+
