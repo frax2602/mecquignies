@@ -2,63 +2,63 @@
   "actualites": [
     {
       "id": 1,
-      "titre": "Illuminations de Noël 2024",
-      "date": "2024-12-12",
-      "dateAffichage": "12 décembre 2024",
-      "categorie": "Événement",
+      "titre": "Vœux du Maire 2026 - Samedi 18 janvier",
+      "date": "2025-12-12",
+      "dateAffichage": "12 décembre 2025",
+      "categorie": "Mairie",
       "image": "",
-      "extrait": "Les illuminations de Noël sont installées dans le village ! Venez profiter de l'ambiance festive qui règne dans nos rues.",
-      "contenu": "Les illuminations de Noël sont installées dans le village ! Venez profiter de l'ambiance festive qui règne dans nos rues.\n\nLa mairie remercie les services techniques et les bénévoles qui ont contribué à la décoration du village pour les fêtes de fin d'année.\n\nBonnes fêtes à toutes et à tous !"
+      "extrait": "Le Maire Frédéric ROMAIN et l'ensemble du conseil municipal vous invitent à la cérémonie des vœux qui se tiendra le samedi 18 janvier 2026 à 18h à la salle des fêtes.",
+      "contenu": "Le Maire Frédéric ROMAIN et l'ensemble du conseil municipal vous invitent à la cérémonie des vœux qui se tiendra le samedi 18 janvier 2026 à 18h à la salle des fêtes.\n\nCe sera l'occasion de se retrouver et de partager un moment convivial autour d'un verre de l'amitié.\n\nToutes les Macogniennes et tous les Macogniens sont cordialement invités."
     },
     {
       "id": 2,
-      "titre": "Collecte des sapins de Noël",
-      "date": "2024-12-10",
-      "dateAffichage": "10 décembre 2024",
-      "categorie": "Environnement",
+      "titre": "Marché de Noël - Samedi 21 décembre",
+      "date": "2025-12-10",
+      "dateAffichage": "10 décembre 2025",
+      "categorie": "Événement",
       "image": "",
-      "extrait": "La collecte des sapins de Noël aura lieu du 6 au 17 janvier 2025. Déposez vos sapins (sans décoration) aux points de collecte habituels.",
-      "contenu": "La collecte des sapins de Noël aura lieu du 6 au 17 janvier 2025. Déposez vos sapins (sans décoration) aux points de collecte habituels.\n\nPensez à retirer toutes les décorations, guirlandes et le pied avant de déposer votre sapin. Les sapins seront recyclés en compost.\n\nPour plus d'informations, contactez la Communauté de Communes du Pays de Mormal."
+      "extrait": "Le marché de Noël de Mecquignies aura lieu le samedi 21 décembre de 14h à 19h sur la place du village. Artisans, vin chaud, animations et visite du Père Noël !",
+      "contenu": "Le marché de Noël de Mecquignies aura lieu le samedi 21 décembre de 14h à 19h sur la place du village.\n\nAu programme : stands d'artisans locaux, produits du terroir, vin chaud, chocolat chaud, animations pour les enfants et visite du Père Noël à partir de 15h.\n\nEntrée gratuite. Venez nombreux partager ce moment festif en famille !"
     },
     {
       "id": 3,
       "titre": "Horaires de la mairie pendant les fêtes",
-      "date": "2024-12-08",
-      "dateAffichage": "8 décembre 2024",
+      "date": "2025-12-08",
+      "dateAffichage": "8 décembre 2025",
       "categorie": "Mairie",
       "image": "",
-      "extrait": "La mairie sera fermée du 23 décembre 2024 au 2 janvier 2025 inclus. Réouverture le vendredi 3 janvier 2025 aux horaires habituels.",
-      "contenu": "La mairie sera fermée du 23 décembre 2024 au 2 janvier 2025 inclus. Réouverture le vendredi 3 janvier 2025 aux horaires habituels.\n\nEn cas d'urgence pendant cette période, vous pouvez contacter la gendarmerie de Bavay au 03 27 63 13 13.\n\nToute l'équipe de la mairie vous souhaite de joyeuses fêtes de fin d'année !"
+      "extrait": "La mairie sera fermée du 24 décembre 2025 au 2 janvier 2026 inclus. Réouverture le vendredi 3 janvier 2026 aux horaires habituels.",
+      "contenu": "La mairie sera fermée du 24 décembre 2025 au 2 janvier 2026 inclus pour les fêtes de fin d'année.\n\nRéouverture le vendredi 3 janvier 2026 aux horaires habituels (Lundi et jeudi : 10h-12h / Mardi, mercredi et vendredi : 16h-18h).\n\nEn cas d'urgence pendant cette période, contactez la gendarmerie de Bavay au 03 27 63 13 13.\n\nToute l'équipe vous souhaite de joyeuses fêtes !"
     },
     {
       "id": 4,
-      "titre": "Marché de Noël - Samedi 14 décembre",
-      "date": "2024-12-05",
-      "dateAffichage": "5 décembre 2024",
-      "categorie": "Événement",
+      "titre": "Concert de Noël - Dimanche 22 décembre",
+      "date": "2025-12-05",
+      "dateAffichage": "5 décembre 2025",
+      "categorie": "Culture",
       "image": "",
-      "extrait": "Le marché de Noël de Mecquignies aura lieu le samedi 14 décembre de 14h à 19h sur la place du village. Artisans locaux, vin chaud et animations pour les enfants !",
-      "contenu": "Le marché de Noël de Mecquignies aura lieu le samedi 14 décembre de 14h à 19h sur la place du village.\n\nAu programme : stands d'artisans locaux, produits du terroir, vin chaud, chocolat chaud, animations pour les enfants et visite du Père Noël à partir de 15h.\n\nEntrée gratuite. Venez nombreux partager ce moment convivial en famille !"
+      "extrait": "Concert de Noël à l'église Saint-Martin le dimanche 22 décembre à 17h. Chants traditionnels et musique festive. Entrée libre.",
+      "contenu": "La mairie et l'association culturelle sont heureuses de vous inviter au concert de Noël qui se tiendra à l'église Saint-Martin le dimanche 22 décembre à 17h.\n\nAu programme : chants traditionnels de Noël, musique classique et ambiance festive avec la chorale locale.\n\nEntrée libre, participation au chapeau. Venez nombreux célébrer les fêtes en musique !"
     },
     {
       "id": 5,
-      "titre": "Collecte des déchets - Modification pendant les fêtes",
-      "date": "2024-12-03",
-      "dateAffichage": "3 décembre 2024",
+      "titre": "Collecte des déchets - Modifications pendant les fêtes",
+      "date": "2025-12-03",
+      "dateAffichage": "3 décembre 2025",
       "categorie": "Environnement",
       "image": "",
-      "extrait": "En raison des jours fériés, les collectes des déchets seront modifiées pendant les fêtes de fin d'année. Consultez le calendrier mis à jour.",
-      "contenu": "En raison des jours fériés, les collectes des déchets seront modifiées pendant les fêtes de fin d'année.\n\nModifications :\n- Semaine du 25 décembre : collecte avancée au mardi 24 décembre\n- Semaine du 1er janvier : collecte reportée au jeudi 2 janvier 2025\n\nLe calendrier complet est disponible en mairie et sur le site de la Communauté de Communes du Pays de Mormal."
+      "extrait": "En raison des jours fériés, les collectes des déchets seront modifiées pendant les fêtes. Consultez le calendrier mis à jour.",
+      "contenu": "En raison des jours fériés, les collectes des déchets seront modifiées pendant les fêtes de fin d'année.\n\nModifications :\n- Semaine du 25 décembre : collecte avancée au mardi 24 décembre\n- Semaine du 1er janvier : collecte reportée au jeudi 2 janvier 2026\n\nLe calendrier complet est disponible en mairie et sur le site de la Communauté de Communes du Pays de Mormal."
     },
     {
       "id": 6,
-      "titre": "Concert de Noël à l'Église Saint-Martin",
-      "date": "2024-12-01",
-      "dateAffichage": "1er décembre 2024",
-      "categorie": "Culture",
+      "titre": "Illuminations de Noël dans le village",
+      "date": "2025-12-01",
+      "dateAffichage": "1er décembre 2025",
+      "categorie": "Événement",
       "image": "",
-      "extrait": "Concert de Noël le dimanche 22 décembre à 17h à l'église Saint-Martin. Chants traditionnels et musique classique. Entrée libre.",
-      "contenu": "La mairie et l'association culturelle sont heureuses de vous inviter au concert de Noël qui se tiendra à l'église Saint-Martin le dimanche 22 décembre à 17h.\n\nAu programme : chants traditionnels de Noël, musique classique et ambiance festive avec la chorale locale.\n\nEntrée libre, participation au chapeau. Venez nombreux partager ce moment de convivialité !"
+      "extrait": "Les illuminations de Noël sont installées dans le village ! Profitez de l'ambiance festive dans nos rues décorées pour les fêtes.",
+      "contenu": "Les illuminations de Noël sont installées dans le village ! Profitez de l'ambiance festive dans nos rues décorées pour les fêtes.\n\nLa mairie remercie chaleureusement les services techniques et les bénévoles qui ont contribué à embellir notre village pour cette période magique.\n\nJoyeuses fêtes à toutes et à tous !"
     }
   ]
 }
